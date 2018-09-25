@@ -1,0 +1,12 @@
+in:
+  type: ftp
+  host: <hostname>
+  port: 21
+  user: <username>
+  password: <password>
+
+  # path to directory on ftp server
+  path_prefix: /import-to-td/seed1-computers
+
+out:
+  mode: append
